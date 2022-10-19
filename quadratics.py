@@ -2,23 +2,29 @@
 
 # Created by Cristiano Sellitto
 # Created in October 2022
-# A program that finds if function f is quadratic or linear
+# A program that finds if function f is quadratic and calculates the roots
+
+import math
 
 
 def main():
-    # Finds if function f is quadratic or linear and prints basic info about function f
+    # Finds if function f is quadratic and calculates the roots
 
     print("f(x) = ax² + bx + c")
     a_value = int(input("\nEnter the value of a: "))
     b_value = int(input("Enter the value of b: "))
     c_value = int(input("Enter the value of c: "))
-    if a_value == 0:
-        print("\nThis is a linear function.")
-        print("\nThe slope of function f is {}".format(b_value))
-    else:
+    if a_value != 0:
         print("\nThis is a quadratic function.")
-        print("\nThe vertical stretch of function f is {}".format(a_value))
-    print("The y-intercept of function f is (0, {})".format(c_value))
+        root_one = (-b_value + math.sqrt(b_value**2 - 4 * a_value * c_value)) / (
+            2 * a_value
+        )
+        root_two = (-b_value - math.sqrt(b_value**2 - 4 * a_value * c_value)) / (
+            2 * a_value
+        )
+        print("Function f's roots are ({0}, 0) and ({1}, 0)".format(root_one, root_two))
+    else:
+        print("\nThis is not a quadratic function.")
 
     print("\nDone.")
 
