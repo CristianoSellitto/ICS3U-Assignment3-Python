@@ -29,7 +29,11 @@ def main():
             root_two = (-b_value - math.sqrt(b_value**2 - 4 * a_value * c_value)) / (
                 2 * a_value
             )
-            print("Function f's roots are ({0}, 0) and ({1}, 0)".format(root_one, root_two))
+            print(
+                "Function f's roots are ({0}, 0) and ({1}, 0)".format(
+                    root_one, root_two
+                )
+            )
         else:
             print("Function f has no roots")
     else:
