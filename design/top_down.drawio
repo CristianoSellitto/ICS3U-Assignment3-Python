@@ -10,7 +10,7 @@
                 <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;rounded=0;" parent="1" source="2" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="780" y="120"/>
+                            <mxPoint x="880" y="120"/>
                             <mxPoint x="280" y="120"/>
                         </Array>
                     </mxGeometry>
@@ -24,27 +24,34 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="2" value="Solving Quadratic Equations" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="700" width="160" height="80" as="geometry"/>
+                    <mxGeometry x="800" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="4" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="680" y="280" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="780" y="260"/>
+                            <mxPoint x="880" y="260"/>
                             <mxPoint x="680" y="260"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="41" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="4" target="40">
+                <mxCell id="41" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" source="4" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="780" y="260"/>
                             <mxPoint x="880" y="260"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="4" target="44">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="880" y="260"/>
+                            <mxPoint x="1080" y="260"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="4" value="Process" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="700" y="160" width="160" height="80" as="geometry"/>
+                    <mxGeometry x="800" y="160" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="5" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -71,35 +78,35 @@
                 <mxCell id="36" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6" target="35" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="1280" y="260"/>
+                            <mxPoint x="1480" y="260"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="39" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6" target="21" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="1280" y="270"/>
-                            <mxPoint x="1280" y="260"/>
+                            <mxPoint x="1480" y="270"/>
                             <mxPoint x="1480" y="260"/>
+                            <mxPoint x="1680" y="260"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="43" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="42">
+                <mxCell id="43" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
+                            <mxPoint x="1480" y="260"/>
                             <mxPoint x="1280" y="260"/>
-                            <mxPoint x="1080" y="260"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="6" value="Output" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="1200" y="160" width="160" height="80" as="geometry"/>
+                    <mxGeometry x="1400" y="160" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="Set the value of c" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="400" y="280" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="Show the program as done" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="1400" y="280" width="160" height="80" as="geometry"/>
+                    <mxGeometry x="1600" y="280" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="Check if the function is quadratic" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="600" y="280" width="160" height="80" as="geometry"/>
@@ -110,13 +117,16 @@
                 <mxCell id="31" value="Set the value of a" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry y="280" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="Show the second root" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="1200" y="280" width="160" height="80" as="geometry"/>
+                <mxCell id="35" value="Show the second root if the function has one" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1400" y="280" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="If the function is quadratic, use the quadratic formula to find the roots" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                <mxCell id="40" value="Calculate the&amp;nbsp;discriminant" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
                     <mxGeometry x="800" y="280" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="Show the first root" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                <mxCell id="42" value="Show the first root if the function has one" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="280" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Calculate the root(s) based on the the&amp;nbsp;discriminant&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
                     <mxGeometry x="1000" y="280" width="160" height="80" as="geometry"/>
                 </mxCell>
             </root>
